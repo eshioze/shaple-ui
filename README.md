@@ -1,9 +1,28 @@
 # shaple-ui
+Shaple-ui is a simple but powerful website that contains great features for managing Projects.
 
-#Getting Started
+# Getting Started
 
-#Prerequisites
+# Prerequisites
 
-#Installing
+# Installing
 
-#Running the tests
+# Running the tests
+
+# Break down into end to end tests
+
+# And coding style tests
+
+# Deployment
+
+# Built With
+
+# Contributing
+
+# Versioning
+
+# Authors
+
+# License
+
+# Acknowledgments
