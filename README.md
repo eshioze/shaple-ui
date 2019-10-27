@@ -17,11 +17,13 @@ Shaple-ui is a simple but powerful website that contains great features for mana
 
 # Built With
 
+
 # Contributing
 
 # Versioning
 
 # Authors
+ Bolade Eshioze' Paul
 
 # License
 
