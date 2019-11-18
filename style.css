@@ -1,0 +1,207 @@
+body{
+  font:15px/2.5 Ariel, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#ffffff;
+  }
+  /*Global*/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	}
+	ul{
+	margin:0;
+	padding:0;
+	}
+	/*Header*/
+header{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	background:white;
+	color:black;
+	padding-top:0px;
+	min-height:50px;
+	z-index:10;
+	}
+header a{
+	color:black;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:14px;
+   }
+header a:hover{
+	color:blue;
+	font-weight:bold;
+	}
+header h1{
+	font-family:sans-serif raleway;
+	font-size:24px;
+	color:gray;
+	text-transform:capitalize;
+	padding-right: 20px;
+}
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+   }
+header #branding{
+	float:left;
+  }
+header #branding h1{
+	margin:0px;
+	margin-left:0px;
+	}
+header nav{
+	float:right;
+	margin-top:10px;
+	}
+header nav ul ul li{
+	display:inline-block;
+	list-style: none;
+    margin: 0;
+    padding: 0;
+	position:absolute;
+	visibility: hidden;
+    width: 180px;
+	}
+#banner{
+	min-height:600px;
+	background-image: url('../img/sea1.jpg'); 
+	text-align:center;
+	color:white;
+	}
+#banner h1{
+	margin-top:150px;
+	font-family:sans-serif arial;
+	font-size:60px;
+	margin-bottom:15px;
+}
+.button_1{
+	border:none;
+	height:50px;
+	background:#6495ED;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	width:200px;
+	cursor:pointer;
+}
+.button_2{
+	border:3px solid white;
+	height:50px;
+	background:none;
+	text-align:center;
+	color:white;
+	width:200px;
+	cursor:pointer;
+}
+.button_2: hover{
+	color:white;
+	font-weight:bold;
+}
+article#main-col{
+	min-height:800;
+	margin-top:50px;
+	margin-bottom:50px;
+	float:left;
+	width:60%;
+	}
+aside#sidebar{
+	margin-top:65px;
+	margin-bottom:45px;
+	float:right;
+	width:30%;
+}
+section#potfolio{
+	background:#E5E4E2;
+	max-width:100%;
+	height:auto;
+	
+}
+article#port-col{
+	margin-top:50px;
+	margin-bottom:50px;
+	float:right;
+	width:60%;
+}
+aside#sidebar2{
+	margin-top:65px;
+	margin-bottom:45px;
+	float:left;
+	width:30%;
+}
+section#parallax{
+	background-image:url('../img/sea.jpg');
+	min-height:400px;
+	text-align:center;
+	color:white;
+}
+#parallax h1{
+	margin-top:50px;
+	font-family:sans-serif arial;
+	font-size:60px;
+	margin-bottom:0px;
+}
+footer#foot{
+	background:black;
+	min-height:150px;
+	}
+footer#foot p{
+	color:white;
+}	
+#butt{
+	margin-top:20px;
+}
+img.responsive {
+max-width: 100%;
+height: auto;
+}
+section#gallery{
+    text-align:center;
+}
+section#gallery h1{
+	font-size:30px;
+}
+section#project{
+	margin-top:0px;
+	background:black;
+	min-height:250px;
+}
+section#project h1{
+	font-size:25px;
+}
+section#project h1, p{
+	color:white;
+	text-align:center;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	padding:0 1px;
+}
+.column{
+	flex:25%;
+	max-width:24.5%;
+	padding:0 4px;
+}
+.column img{
+	margin-top:8px;
+	vertical-align:middle;
+	width:100%;
+}
+@media screen and (max-width:800px){
+	.column{
+		flex:50%;
+		max-width:50%;
+	}
+}
+/*@media screen and (max-width:600px){
+	.column{
+		flex:100%;
+		max-width:100%;
+	}
+}*/
